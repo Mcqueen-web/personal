@@ -413,7 +413,45 @@ def longestPalindrome(s):
     return s[start:start + max_len]
 print(longestPalindrome("babad"))
 """
+#def num(user_input):
+    
 
+#    if user_input == 5:
+#        print("yes")
 
+    
+#user_input=int(input("Enter a number"))
+#num(user_input)
+#from datetime import datetime,timedelta
+#def get_date_from_day(day_name):
+#    day_name=day_name.strip().capitalize()
+#    days={
+#        "Monday":0,
+#        "Tuesday":1,
+#        "Wednesday":2,
+#       "Thursday":3,
+#       "Friday":4,
+#        "Saturday":5,
+#        "Sunday":6
+#    }
+#    if day_name not in days:
+#        print('invalid day name')
+#        return
+#    today=datetime.today()
+#    today_weekday=today.weekday()
+#    target_weekday=days[day_name]
+#    difference=target_weekday-today_weekday
+#    target_date=today+timedelta(days=difference)
+#    print(f"{day_name} is on {target_date.strftime('%d-%m-%y')}")
+#user_day=input("Enter day of the week:")
+#"get_date_from_day   (user_day)
 
-print("hello")
+def check_day():
+    day = input("Enter a day: ")
+
+    match day :
+        case "monday":
+            print("Monday")
+        case ""    
+    
+
